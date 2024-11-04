@@ -1,0 +1,24 @@
+.titulo {
+    font-size: 25px;
+    color: #f29e38;
+    margin-left: 20px;
+}
+
+#autores {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img_autores img {
+    width: 350px;
+    margin-top: -70px;
+}
+
+.img_autores {
+    text-align: center;
+}
+
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,27 @@
+#titulo_curiosidades {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+main img {
+    width: 400px;
+    text-align: center;
+    margin-top: -80px;
+}   
+
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}

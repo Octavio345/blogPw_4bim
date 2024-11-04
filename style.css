@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}  
+
+header {
+    background: #4b779d;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    background: #84a7c5;
+}
+
+.fade {
+    background: #CFCFCF;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+#contato{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 10px;
+}
+
+.botao{
+    margin: 10px;
+}
+
+.card-group img {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background: #CFCFCF;
+}
+
+.img_animal{
+    max-width: 95%;
+    height: auto;     
+    border-radius: 15px;
+    margin: 9px; 
+}
+
+.container {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.texto_final {
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.img_final {
+    border-radius: 15px;
+    width: 100%; 
+    max-width: 200px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.texto_animal{
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding: 20px;
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.position-sticky img {
+    width: 100%;
+}
+
+.progress-container {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #4caf50;
+    transition: width 0.2s ease;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.d-flex img {
+    width: 100%;
+}
+
+.cor_fundo{
+    background-color: white;
+}
+
+#botao_voltar_para_cima img {
+    width: 65px; /* Proporcional ao tamanho do botão */
+    height: auto; /* Mantém a proporção da imagem */
+    text-align: center;
+    border-radius: 50%; /* Garante que a imagem também seja circular */
+}
+.container{
+  max-width: 100%; 
+  margin: 0px;
+}
+.legenda_foto{
+    margin: 60px;
+    margin-top: -60px;
+}
+
+
+.fst-italic {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.titulo {
+    color: #f29e38;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.texto {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nome_animal {
+    font-size: 25px;
+}
+
+.nome_cientifico {
+    font-size: 20px;
+}
+
+.paginas {
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.espacamento_paginas {
+    padding-bottom: 5px;
+}
+
+footer {
+    background: #2e8b57;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin-top: 10px;
+}
+
+.nav-link:hover {
+    color: #f29e38;
+}
+
+.col {
+    margin-left: 20px;
+}
+
+.borda {
+    border: 1px solid #85888C;
+    border-radius: 10px;
+}
+
+@media (min-width: 481px) and (max-width: 850px){
+    .img_animal{
+        max-width: 85%;
+        height: auto;     
+        border-radius: 15px;
+        margin: 58px; 
+    }
+}
+
